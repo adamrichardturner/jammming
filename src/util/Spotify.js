@@ -1,5 +1,5 @@
 const clientId = 'a6cf14244aa04db9b86da413e1fb5c80';
-const redirectUri = 'http://localhost:3000/';
+const redirectUri = 'https://adamrichardturner.github.io/jammming/';
 const spotifyUrl = `https://accounts.spotify.com/authorize?response_type=token&scope=playlist-modify-public&client_id=${clientId}&redirect_uri=${redirectUri}`;
 let accessToken = undefined;
 let expiresIn = undefined;
